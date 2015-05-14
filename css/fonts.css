@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'linux_libertine_slanteslanted';
+    src: url('../fonts/linlibertine_arl-webfont.eot');
+    src: url('../fonts/linlibertine_arl-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_arl-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_arl-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_arl-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_arl-webfont.svg#linux_libertine_slanteslanted') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertineregular';
+    src: url('../fonts/linlibertine_r-webfont.eot');
+    src: url('../fonts/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_r-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_r-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_r-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_r-webfont.svg#linux_libertineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertine_capismallcaps';
+    src: url('../fonts/linlibertine_as-webfont.eot');
+    src: url('../fonts/linlibertine_as-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_as-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_as-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_as-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_as-webfont.svg#linux_libertine_capismallcaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertine_slanBdslanted';
+    src: url('../fonts/linlibertine_abl-webfont.eot');
+    src: url('../fonts/linlibertine_abl-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_abl-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_abl-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_abl-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_abl-webfont.svg#linux_libertine_slanBdslanted') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'linux_libertineSBdIt';
+    src: url('../fonts/linlibertine_rzi-webfont.eot');
+    src: url('../fonts/linlibertine_rzi-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_rzi-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_rzi-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_rzi-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_rzi-webfont.svg#linux_libertineSBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertineSBdItsamllcaps';
+    src: url('../fonts/linlibertine_aszi-webfont.eot');
+    src: url('../fonts/linlibertine_aszi-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_aszi-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_aszi-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_aszi-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_aszi-webfont.svg#linux_libertineSBdItsamllcaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertineitalic';
+    src: url('../fonts/linlibertine_ri-webfont.eot');
+    src: url('../fonts/linlibertine_ri-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_ri-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_ri-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_ri-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_ri-webfont.svg#linux_libertineitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertine_capitalsIt';
+    src: url('../fonts/linlibertine_asi-webfont.eot');
+    src: url('../fonts/linlibertine_asi-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_asi-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_asi-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_asi-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_asi-webfont.svg#linux_libertine_capitalsIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'linux_libertinebold';
+    src: url('../fonts/linlibertine_rb-webfont.eot');
+    src: url('../fonts/linlibertine_rb-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_rb-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_rb-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_rb-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_rb-webfont.svg#linux_libertinebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertine_caBdsmallcaps';
+    src: url('../fonts/linlibertine_abs-webfont.eot');
+    src: url('../fonts/linlibertine_abs-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_abs-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_abs-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_abs-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_abs-webfont.svg#linux_libertine_caBdsmallcaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertine_slaSBdslanted';
+    src: url('../fonts/linlibertine_azl-webfont.eot');
+    src: url('../fonts/linlibertine_azl-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_azl-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_azl-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_azl-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_azl-webfont.svg#linux_libertine_slaSBdslanted') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linux_libertinesemibold';
+    src: url('../fonts/linlibertine_rz-webfont.eot');
+    src: url('../fonts/linlibertine_rz-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/linlibertine_rz-webfont.woff2') format('woff2'),
+        url('../fonts/linlibertine_rz-webfont.woff') format('woff'),
+        url('../fonts/linlibertine_rz-webfont.ttf') format('truetype'),
+        url('../fonts/linlibertine_rz-webfont.svg#linux_libertinesemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'libre_baskervilleregular';
+    src: url('../fonts/librebaskerville-regular-webfont.eot');
+    src: url('../fonts/librebaskerville-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/librebaskerville-regular-webfont.woff2') format('woff2'),
+        url('../fonts/librebaskerville-regular-webfont.woff') format('woff'),
+        url('../fonts/librebaskerville-regular-webfont.ttf') format('truetype'),
+        url('../fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'libre_baskervillebold';
+    src: url('../fonts/librebaskerville-bold-webfont.eot');
+    src: url('../fonts/librebaskerville-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/librebaskerville-bold-webfont.woff2') format('woff2'),
+        url('../fonts/librebaskerville-bold-webfont.woff') format('woff'),
+        url('../fonts/librebaskerville-bold-webfont.ttf') format('truetype'),
+        url('../fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'libre_baskervilleitalic';
+    src: url('../fonts/librebaskerville-italic-webfont.eot');
+    src: url('../fonts/librebaskerville-italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/librebaskerville-italic-webfont.woff2') format('woff2'),
+        url('../fonts/librebaskerville-italic-webfont.woff') format('woff'),
+        url('../fonts/librebaskerville-italic-webfont.ttf') format('truetype'),
+        url('../fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'optimusprincepsregular';
+    src: url('../fonts/optimusprinceps-webfont.eot');
+    src: url('../fonts/optimusprinceps-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/optimusprinceps-webfont.woff2') format('woff2'),
+        url('../fonts/optimusprinceps-webfont.woff') format('woff'),
+        url('../fonts/optimusprinceps-webfont.ttf') format('truetype'),
+        url('../fonts/optimusprinceps-webfont.svg#optimusprincepsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'caviar';
+    src: url('../fonts/soft_elegance-webfont.eot');
+    src: url('../fonts/soft_elegance-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/soft_elegance-webfont.woff2') format('woff2'),
+        url('../fonts/soft_elegance-webfont.woff') format('woff'),
+        url('../fonts/soft_elegance-webfont.ttf') format('truetype'),
+        url('../fonts/soft_elegance-webfont.svg#soft_eleganceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

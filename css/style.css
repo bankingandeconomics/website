@@ -1,0 +1,935 @@
+@charset 'UTF-8';
+@import url("fonts.css");
+
+body
+{
+    background: #fff;
+}
+body.is-loading *
+{
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+
+body,input,textarea,select
+{
+    font-family: 'libre_baskervilleregular';
+    font-weight: 300;
+    color: #000000;
+    width:auto;
+}
+
+
+p
+{
+    width:auto;
+    color : #000000;
+}
+#post p {
+    margin-bottom: 1em;
+}
+
+#post h2{
+    line-height: 1.2em;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 600;
+    color: #000000;
+}
+#title{
+    margin : 0em 1em 3em 5% ;
+    padding-bottom: 2em;
+    border-bottom: solid 2px #e5e5e5;
+}
+#fin{
+    font-family: 'libre_baskervilleregular';
+    text-transform: uppercase;
+    margin : 0em 0em 5em 0em ;
+    padding-bottom: 2em;
+    border-bottom: solid 2px #e5e5e5;
+    border-top : solid 4px;
+    padding-top : 3em;
+    font-weight: 800;
+}
+
+#post .ref
+{
+    font-family: 'libre_baskervilleregular';
+    padding : 2em 0em 2em 1em ;
+    background-color: #f5f5f5;
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#title h1
+{
+    font-family: 'optimusprincepsregular';
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: #000000;
+    width:auto;
+    font-size : 2.9em;
+    line-height: 1.3em;
+    letter-spacing: 4px;
+}
+#post h4
+{
+    font-family: 'caviar' 'arial';
+    text-transform: uppercase;
+    font-weight: 10000;
+    color: #6c6c6c;
+    width:auto;
+    font-size : 0.9em;
+    text-align: right;
+
+}
+#post h5 
+{
+    text-align: right;
+    font-size : 1.9em;
+    padding-top: 0em ;
+    font-family: 'caviar' 'arial';
+    text-transform: uppercase;
+    font-weight: 10000;
+    padding-bottom: 1.2em;
+    border-bottom: solid 2px #ddd;
+    margin-bottom: 0.5em;
+
+}
+
+#post .mycaption
+{
+    font-family: 'libre_baskervilleitalic';
+    text-align: center;
+    color : black;
+    margin: 1em 0em 1em 0em;
+}
+
+#post span.lettrine{
+    font-size:3.5em;
+    float : left;
+    width : 1em ;
+    height : 1em ;
+}
+#title p
+{
+    font-family: 'caviar' 'arial';
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: #6c6c6c;
+    width:auto;
+    font-size : 0.8em;
+    padding-bottom:1.3em;
+}
+
+
+#title h2
+{
+    font-family: 'caviar' 'arial';
+    text-transform: uppercase;
+    font-weight: 10000;
+    color: #6c6c6c;
+    width:auto;
+    font-size : 0.9em;
+}
+
+h3
+{
+    font-family: 'libre_baskervillebold';
+    text-transform: uppercase;
+}
+
+h2
+{
+    font-family: 'libre_baskervillebold';
+    font-size: 2em;
+}
+
+
+a
+{
+    color: #0a0a0a;
+    text-decoration: none;
+    border-bottom: solid 0px #ddd;
+    -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+}
+
+a strong
+{
+    -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+}
+
+a:hover
+{
+    color: #555;
+    border-bottom-color: rgba(255,255,255,0);
+}
+
+a:hover strong
+{
+    color: #555;
+}
+
+strong, b
+{
+    font-weight: 800;
+    color: #000000;
+    font-family: 'libre_baskervilleitalic';
+}
+
+em, i
+{
+    font-family: 'libre_baskervilleitalic';
+}
+
+cite
+{
+    font-family: 'libre_baskervilleitalic';
+}
+
+sub
+{
+    position: relative;
+    top: 0.5em;
+    font-size: 0.8em;
+    text-transform: none;
+}
+
+sup
+{
+    position: relative;
+    top: -0.5em;
+    font-size: 0.8em;
+    text-transform: none;
+}
+
+hr
+{
+    border: 0;
+    border-top: solid 1px #ddd;
+}
+
+blockquote
+{
+    margin: 1em 20% 0em 20%;
+    border-left: solid 0.5em #ddd;
+    border-right: solid 0.5em #ddd;
+    padding: 1em 1em 1em 1em;
+    font-family: 'libre_baskervilleitalic';
+    text-align: center;
+    width: 60%;
+}
+
+blockquote .author
+{
+    font-family: 'libre_baskervillebold';
+    text-align: right;
+    color : black;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+p
+{
+    text-align: justify;
+}
+
+/*		Régler la taille post-paragraphe */
+p, ul, ol, dl, blockquote
+{
+
+    margin-bottom: 0em;
+}
+
+
+br.clear
+{
+    clear: both;
+}
+
+/* Sections/Article */
+
+section,
+article
+{
+    margin-bottom: 0em;
+}
+
+section > :last-child,
+article > :last-child
+{
+    margin-bottom: 0;
+}
+
+section:last-child,
+article:last-child
+{
+    margin-bottom: 0;
+}
+
+/* Image */
+
+.image
+{
+    display: inline;
+
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    overflow: hidden;
+    resize: none;
+}
+
+a.image:hover
+{
+    opacity: 0.9;
+}
+
+.image img
+{
+    display: inline;
+    height: auto;
+    width: auto;
+    background-size:contain;
+    border: solid 4px #efefef !important;
+    overflow: hidden;
+    resize: none;
+
+}
+
+.image.fit
+{
+    display: block;
+    width: 100%;
+}
+
+.image.featured
+{
+    display: inline;
+    margin: 0em 0em 0em 0em;
+    width : 100%;
+    overflow: hidden;
+    resize: none;
+}
+
+.image.left
+{
+    float: left;
+    margin: 0 1.5em 1.5em 0;
+    position: relative;
+    top: 0.5em;
+}
+
+.image.centered
+{
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image.centered img
+{
+    margin: 0 auto;
+    width: auto;
+}
+
+/* List */
+
+ul
+{
+}
+
+#post ul
+{
+    list-style :none;
+    padding: 1em 0em 1em 3em;
+    color : black;
+}
+
+#post ul li:before
+{
+    content : '►' ;
+    font-size: 0.7em;
+}
+
+ul.default
+{
+    list-style: disc;
+    margin-left: 1em;
+}
+
+ul.default li
+{
+    padding-left: 0.5em;
+    margin: 0.75em 0 0.75em 0;
+}
+
+ul.default li:first-child
+{
+    margin-top: 0;
+}
+
+ul.links
+{
+    list-style: decimal;
+    margin-left: 1em;
+}
+
+ul.links li
+{
+    display: inline;
+    border-left: solid 1px #d0d0d0;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+ul.links li:first-child
+{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.actions
+{
+    margin-top: 2.5em;
+    clear: both;
+}
+
+ul.divided
+{
+}
+
+ul.divided li
+{
+    border-top: solid 2px #e5e5e5;
+}
+
+ul.divided li:first-child
+{
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+ul.icons
+{
+}	
+
+ul.icons > li
+{
+    position: relative;
+    padding: 2em 0 0 3em;
+}
+
+ul.icons > li:before
+{
+    position: absolute;
+    left: 0;
+    top: 2em;
+    display: block;
+    background: #878787;
+    color: #e4e4e4;
+    width: 1.65em;
+    height: 1.65em;
+    border-radius: 1.65em;
+    line-height: 1.65em;
+    text-align: center;
+}
+
+ul.icons > li:first-child
+{
+    padding-top: 0;
+}
+
+ul.icons > li:first-child:before
+{
+    top: 0;
+}
+
+ol
+{
+}
+
+ol.default 
+{
+    list-style: decimal;
+    margin-left: 1em;
+}
+
+ol.default  li
+{
+    padding-left: 0.5em;
+    margin: 0.75em 0 0.75em 0;
+}
+
+ol.default  li:first-child
+{
+    margin-top: 0;
+}
+
+
+
+/* Table */
+
+table
+{
+    width: 100%;
+    font-family: 'libre_baskervilleregular';
+    margin: 1em 0em 1em 0em;
+    text-align: center;
+    border-bottom: solid 1px #E5E5E5;
+}
+
+table.default 
+{
+    width: 100%;
+}
+
+table.default  tbody tr
+{
+    border-top: solid 1px #E5E5E5;
+}
+
+table.default  tbody tr:first-child
+{
+    border-top: 0;
+}
+
+table.default  td
+{
+    padding: 0.75em 1em 0.75em 1em;
+
+}
+
+table.default  th
+{
+    text-align: left;
+    font-weight: bold;
+    padding: 0.75em 1em 0.75em 1em;
+}
+
+table.default  thead
+{
+    background: #878787;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+}
+
+table.default  tfoot
+{
+    background: #F0F0F0;
+    border-top: solid 2px #E5E5E5;
+}
+
+table.default  tbody
+{
+}
+
+
+.box
+{
+}
+
+.box.excerpt
+{
+}
+
+.box.excerpt .date
+{
+    background: #878787;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 0;
+}
+
+/*********************************************************************************/
+/* Icons                                                                         */
+/*********************************************************************************/
+
+.icon {
+    position: relative;
+    text-decoration: none;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: libre_baskervilleregular;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon > .label {
+    display: none;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+#header-wrapper
+{
+    position: relative;
+    background: #fff;
+    text-align: center;
+}
+
+#header-wrapper p
+{
+    text-align: center;
+    font-style: italic;
+}
+
+#banner-wrapper
+{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    color: #fff;
+    text-align: center;
+    border-top: solid 2px #e5e5e5;
+}
+
+#banner-wrapper p
+{
+    text-align: center;
+}
+
+#features-wrapper
+{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    width:90%;
+    margin: 2em 5% 0em 5%;
+}
+
+#features-wrapper p
+{
+}
+
+#features-wrapper .actions
+{
+}
+
+#main-wrapper
+{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    width: auto;
+}
+
+#footer-wrapper
+{
+    position: relative;
+    background: #f0f0f0;
+    margin : 0px 0px 0px 0px;
+    border : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
+}
+
+#footer-wrapper h2
+{
+    font-family: 'libre_baskervilleregular';
+    text-align: left;
+    font-size: 0.8em;
+    text-transform: none;
+}
+#footer-wrapper a
+{
+    color : #666;
+}
+#footer-wrapperh
+{
+    position: relative;
+    background: #f0f0f0;
+    margin : 0px 0px 0px 0px;
+    border : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
+}
+
+#footer-wrapperh h2
+{
+    font-family: 'libre_baskervilleregular';
+    text-align: left;
+    font-size: 0.8em;
+    text-transform: none;
+    padding-left: 2em;
+}
+#footer-wrapperh a
+{
+    color : #666;
+}
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header
+{
+    position: relative;
+    color: #000000;
+}
+
+#header h1
+{
+    font-family: 'linux_libertine_caBdsmallcaps';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#header h1 a
+{
+    border: 0;
+}
+
+#header p
+{
+    font-weight: 400;
+    color: #888;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+#nav
+{
+    cursor: default;
+    border-bottom: solid #000000 1px;
+    border-top: solid #000000 1px;
+}
+
+#nav > ul > li
+{
+}
+
+#nav > ul > li > a
+{
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000000;
+    outline: 0;
+}
+
+#nav > ul > li > a:before
+{
+    display: inline-block;
+    text-transform: uppercase;
+    background: #878787;
+    color: #e4e4e4;
+    width: 1.65em;
+    height: 1.65em;
+    border-radius: 1.65em;
+    line-height: 1.65em;
+    text-align: center;
+    margin-right: 0.75em;
+    -moz-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+}
+
+#nav > ul > li > a > span
+{
+    text-transform: uppercase;
+    -moz-transition: color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out;
+}
+
+
+#nav > ul > li.active,
+#nav > ul > li:hover
+{
+}
+
+#nav > ul > li.active > a,
+#nav > ul > li:hover > a
+{
+}
+
+#nav > ul > li.active > a:before,
+#nav > ul > li:hover > a:before
+{
+    background: #4e4e4e;
+    color: #fff;
+}
+
+#nav > ul > li.active > a > span,
+#nav > ul > li:hover > a > span
+{
+    color: #555;
+}
+
+/*********************************************************************************/
+/* Features                                                                      */
+/*********************************************************************************/
+
+#features
+{
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner
+{
+    position: relative;
+    text-transform: uppercase;
+}
+
+#banner p
+{
+    font-weight: 400;
+}
+
+#banner strong
+{
+    color: inherit;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#content
+{
+}
+
+#content > section,
+#content > article
+{
+}
+
+#content > section:first-child,
+#content > article:first-child
+{
+    border-top: 0;
+    box-shadow: none;
+}
+
+.ban{
+    width:28%;
+    margin: 0em 2% 0em 2%;
+    border-left: solid 1px #b2b2b2;
+    height: 30em;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+.ban img
+{
+    margin: 0em 5% 0em 5%;
+    padding: 0em 0em 0em 0em;
+    border: 0em 0em 0em 0em;
+    width : 90%;
+    overflow: hidden;
+    resize: none;
+}
+.ban h2
+{
+    font-size: 1em;
+    text-align: center;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    border: 0em 0em 0em 0em;
+    text-transform: uppercase;
+}
+
+.ban h3
+{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: 'caviar' 'arial';
+    margin: 1em 0em 1em 0em;
+    padding: 0em 0em 0em 0em;
+    border: 0em 0em 0em 0em;
+    text-transform: uppercase;
+    color : crimson;
+}
+
+.ban h4
+{
+    font-family: 'caviar' 'arial';
+    text-transform: uppercase;
+    font-weight: 10000;
+    color: #6c6c6c;
+    width:auto;
+    font-size : 0.7em;
+}
+
+.ban p
+{
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    border: 0em 0em 0em 0em;
+    font-family: 'libre_baskervilleitalic';
+    white-space:normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 8em;
+}
+
+.twitter {
+    z-index: 20;
+    margin : 2em 30% 2em 30%;
+    width : 40%;
+}
+
+/*********************************************************************************/
+/* Graphs                                                                    */
+/*********************************************************************************/
+#chartdiv {
+    width		: 100%;
+    height		: 500px;
+    font-size	: 11px;  
+}										
+
+.amcharts-export-menu-top-right {
+    top: 10px;
+    right: 0;
+}		
+
+#chartdiv2 {background: #3f3f4f;color:#ffffff;		
+    width	: 100%;
+    height	: 500px;
+}					
+
+
+
