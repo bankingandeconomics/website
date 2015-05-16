@@ -85,7 +85,7 @@ $.dynatableSetup({features: {pushState: false}});
               $toc.css({'position': 'absolute', 'top': 'auto'});
               $menuToggle.css({'position': 'absolute', 'top': 'auto'});
             }
-            if ($(this).width() > 1200) {
+            if ($(this).width() > 768) {
               if (scrollTop > tagbarTop) {
                 var leftOffset = tocWidth - (scrollTop - tagbarTop) * scrollRatio;
                 if (scrollTop < (tagbarTop + tagbarHeight)) {
@@ -126,7 +126,7 @@ $.dynatableSetup({features: {pushState: false}});
           //downloadBarTop = $downloadBar.offset().top;
           scrollRatio = tocWidth / tagbarHeight;
 
-          if ($(this).width() > 1200) {
+          if ($(this).width() > 768) {
             if (!$toc.is(':visible')) {
               $toc.show().css({'left': 0});
             }

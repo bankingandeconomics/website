@@ -3,6 +3,12 @@
 <?php include("modules/head.php"); ?>
 <title>Banking and Economics</title>
 <body class="homepage">
+<?php
+  if ($_SERVER["HTTP_ACCEPT_LANGUAGE"] == "fr")
+    header("location: index_fr.php");
+  else 
+    header("location: index.php");
+?>
 <!-- Header -->
 <?php include("modules/header_en.php"); ?>
 <!-- Features -->

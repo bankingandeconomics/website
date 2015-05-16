@@ -8,7 +8,7 @@
 
     <!-- ARTICLE-->
 
-    <p>Je présente sur cette page tous les outils que j'ai exploré et qui nous permettront de faire de beaux articles : interactifs, rigoureux et pédagogiques. Une petite phrase pour présenter les trois langages clés pour créer une page web. Il y a d'abord le HTML5 : c'est le fond (le blabla), le CSS3 : c'est la forme (couleurs, positions sur la page...) et le Javascript qui complète les deux autres.</p>
+    <p>Je présente sur cette page tous les outils que j'ai explorés et qui nous permettrons de faire de beaux articles : interactifs, rigoureux et pédagogiques. Une petite phrase pour présenter les trois langages clés pour créer une page web. Il y a d'abord le HTML5 : c'est le fond (le blabla), le CSS3 : c'est la forme (couleurs, positions sur la page...) et le Javascript qui complète les deux autres.</p>
     <h2>Dans le cadre du HTML5</h2>
 
 
@@ -76,6 +76,8 @@
 C'est moi qui l'ai créé (comme beaucoup d'autres ci-dessus). Il sera à placer sous des images, des tableaux...
 
 <div class="mycaption">Ce magnifique graphique a été réalisé en javascript.</div>
+<h3>Des info-bulles</h3>
+En voici une <a href="#" title="Website name">par exemple</a>!
 <h2>Avec Javascript</h2>
 <p>Javascript complète le HTML5 et le CSS3. Il permet de modifier une page sans avoir à la rafraîchir et plus largement de compléter le HTML5. Tu vas vite aimer ce langage, non pas pour sa structure, mais pour les possibilités qui s'offrent à nous grâce à lui !</p>
 <h3>Du LaTeX sur ma page HTML Oui</h3>
@@ -95,11 +97,11 @@ with,
 $$\begin{cases}a = Re(1-\frac{1}{\gamma}-\frac{1}{\gamma}l\breve{m}_F(l)) \\b=Im(1-\frac{1}{\gamma}-\frac{1}{\gamma}l\breve{m}_F(l)) \end{cases} $$           
 <h3>La DataViz, c'est l'avenir !</h3>
 
-<p>Énormément de sites ce sont développés pour rendre accessible à tout petit aspirant codeur l'accès à la Data Vizualization, aka <em>DataViz</em>.</p>
+<p>Énormément de sites se sont développés pour rendre accessible à tout petit aspirant codeur l'accès à la Data Vizualization, aka <em>DataViz</em>.</p>
 
 <p>Te voici, ci-dessous, une liste non exhaustive des petits bijoux dont nous avons l'accès&#8239:</p>
 <ul>
-    <li><a href="amcharts.com">Amcharts</a> : pour faire des cartes et / ou des graphes interactif,</li>
+    <li><a href="amcharts.com">Amcharts</a> : pour faire des cartes et / ou des graphes interactifs,</li>
     <li>Package Google pour transcrire un graphe R en graphe Javascript interactif !</li>
 </ul>
 <p>Allez, pour le plaisir des yeux, un petit exemple ci-dessous :</p>	

@@ -171,6 +171,7 @@ a.nav-links:hover {
   border-top: solid 1px #6a86ff;
   border-bottom: solid 1px #6a86ff;
 }
+
 /*Taille du toc*/
 @media only screen and (max-width: 1000px) {
   #toc-container {
@@ -194,3 +195,4 @@ a.nav-links:hover {
     margin-left: auto;
   }
 }
+

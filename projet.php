@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=fr>
     <?php include('modules/head.php')?>
-
+    <title>Banking and Economics - Le projet</title>
     <body>
         <div id='tagbar'  class='homepage'>
             <?php include("modules/header_fr.php"); ?>

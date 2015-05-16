@@ -1,8 +1,8 @@
-var chart = AmCharts.makeChart("chartdiv", {
+var chart = AmCharts.makeChart("chartdiv3", {
   "type": "serial",
-  "theme": "light",
+  "theme": "dark",
   "marginRight": 70,
-  "pathToImages": "http://www.amcharts.com/lib/3/images/",
+  "path": "http://www.amcharts.com/lib/3/",
   "dataProvider": [{
     "country": "USA",
     "visits": 3025,
@@ -77,10 +77,7 @@ var chart = AmCharts.makeChart("chartdiv", {
     "labelRotation": 45
   },
   "export": {
-    "enabled": true,
-    "libs": {
-      "path": "http://www.amcharts.com/lib/3/plugins/export/libs/"
-    }
+    "enabled": true
   }
 
 });

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang=fr>
     <?php include('modules/head.php')?>
-
     <body>
         <div id='tagbar'  class='homepage'>
             <?php include("modules/header_fr.php"); ?>

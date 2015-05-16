@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang=fr>
     <?php include('modules/head.php')?>
+    <title>Banking and Economics - Notre test</title>
     <body>
         <div id='tagbar'  class='homepage'>
             <?php include("modules/header_fr.php"); ?>
@@ -11,8 +12,7 @@
             <div id="main-wrapper">
                 <article class="box post">
 
-
-                    <?php include('articles/02_html/02_html.php')?>
+                    <?php include('articles/04_test/04_test.php')?>
                     <?php include('modules/follow.php')?>
                     <?php include('modules/others_fr.php')?>
 
